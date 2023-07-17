@@ -1,0 +1,163 @@
+/* common */
+
+body {
+  margin: 0;
+}
+
+.container img { 
+  width: calc(100% -32px);
+  height: auto;
+  margin: 16px auto;
+}
+
+.container1 img {
+  max-width: 95%;
+  height: auto;
+  margin-right: 4px;
+  vertical-align: bottom;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+/* header */
+
+header {
+  background: rgb(73, 69, 41);
+}
+
+header .container {
+  /* width: 1200px; */
+  width: 95%;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+  
+}
+
+header .container div + div {
+  margin-left: 60px;
+}
+
+header h1 {
+  color: yellow;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: verdana,'Arial Black', メイリオ, sans-serif;
+}
+
+.lineupdown {
+  background-color: rgb(196, 189, 151);
+  height: 32px;
+}
+
+body {
+  /* background-color: rgb(231, 220, 189); */
+  background-image: url(https://ryuji3741.github.io/logicAM1.github.io/img/ICON/kabe4.png);
+}
+
+/* main */
+
+main .container1 {
+  background-color: blanchedalmond;
+  max-width: 800px;
+  width: 95%;
+  margin: 0 auto;
+  outline: 2px solid rgb(73,69,41);
+  border-radius: 20px;
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+main .container2 {
+  background-color: blanchedalmond;
+  max-width: 800px;
+  width: 95%;
+  margin: 0 auto;
+  outline: 2px solid rgb(73,69,41);
+  border-radius: 20px;
+  margin-bottom: 80px;
+}
+
+main h2 {
+  text-align: center;
+  padding: 16px;
+}
+
+main p {
+  font-size: 20px;
+  line-height: 1.8;
+  padding: 0px 16px 16px;
+}
+
+main h1 {
+  width: 360px;
+  height: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+main table {
+  max-width: 800px;
+  width:100%;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 80px;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+table th {
+  border: 1px solid rgb(173, 172, 172);
+  padding-left: 16px;
+  height: auto;
+}
+
+table td {
+  border: 1px solid rgb(173, 172, 172);
+  padding-left: 16px;
+  height: auto;
+}
+
+main ul {
+  font-size: 20px;
+  line-height: 1.8;
+  padding: 0px 64px 16px;
+}
+
+main .container1 div {
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+/* container7 stageansor */
+
+main .container7 {
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main .container7 td {
+  height: 497px;
+}
+
+main aside {
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  margin-left: 60px;
+  font-size: 24px;
+  font-weight: bold;
+}
